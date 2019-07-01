@@ -1,0 +1,18 @@
+{
+  "name": "dbtedman/laravel-sso-provider",
+  "description": "Provides custom SSO integration to Laravel 5 applications.",
+  "license": "MIT",
+  "version": "0.1.2",
+  "scripts": {
+    "test": "vendor/bin/phpunit --debug --bootstrap=tests/bootstrap.php tests/"
+  },
+  "require-dev": {
+    "php": "5.6.*",
+    "phpunit/phpunit": "5.6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DBTedman\\SSOProvider\\": "src/"
+    }
+  }
+}
