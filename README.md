@@ -7,16 +7,16 @@ Provides custom SSO integration to [Laravel 5](https://laravel.com) applications
 
 ## Where do I start?
 
-1\. Require the `learningfutures/laravel-sso-provider` package.
+1\. Require the `mdspeirs/laravel-sso-provider` package.
 
 ```bash
-composer require learningfutures/laravel-sso-provider
+composer require mdspeirs/laravel-sso-provider
 ```
 
 2\. Use the library in your authentication controller.
 
 ```php
-use LearningFutures\SSOProvider\Helpers\SSOHelper;
+use MDSpeirs\SSOProvider\Helpers\SSOHelper;
 
 $sso = SSOHelper::login();
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace LearningFutures\SSOProvider\Helpers;
+namespace MDSpeirs\SSOProvider\Helpers;
 
 /**
  * This file is available on all app server environments.
