@@ -58,3 +58,7 @@ composer run test
 
 Releases are automatically deployed to [Packagist](https://packagist.org/packages/michaelspeirs/laravel-sso-provider) from [Github](https://github.com/michaelspeirs/laravel-sso-provider).
 
+---
+Created [Down Under](https://en.wikipedia.org/wiki/Australia) by [Daniel Tedman](https://danieltedman.com) & Michael Speirs
+
+[![Australia](https://danieltedman.com/images/Australia.png)](https://en.wikipedia.org/wiki/Australia)
