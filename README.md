@@ -1,22 +1,22 @@
 
 # Laravel SSO Provider
 
-[![Build Status](https://travis-ci.org/dbtedman/laravel-sso-provider.svg?branch=master)](https://travis-ci.org/dbtedman/laravel-sso-provider) [![Packagist](https://img.shields.io/packagist/v/dbtedman/laravel-sso-provider.svg)](https://packagist.org/packages/dbtedman/laravel-sso-provider) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
+[![Build Status](https://travis-ci.com/michaelspeirs/laravel-sso-provider.svg?branch=master)](https://travis-ci.com/michaelspeirs/laravel-sso-provider) [![Packagist](https://img.shields.io/packagist/v/michaelspeirs/laravel-sso-provider.svg)](https://packagist.org/packages/michaelspeirs/laravel-sso-provider) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 
 Provides custom SSO integration to [Laravel 5](https://laravel.com) applications.
 
 ## Where do I start?
 
-1\. Require the `dbtedman/laravel-sso-provider` package.
+1\. Require the `learningfutures/laravel-sso-provider` package.
 
 ```bash
-composer require dbtedman/laravel-sso-provider
+composer require learningfutures/laravel-sso-provider
 ```
 
 2\. Use the library in your authentication controller.
 
 ```php
-use DBTedman\SSOProvider\Helpers\SSOHelper;
+use LearningFutures\SSOProvider\Helpers\SSOHelper;
 
 $sso = SSOHelper::login();
 
@@ -46,7 +46,7 @@ if ($sso->valid() && $sso->isStaffMember) {
 
 ## Testing
 
-See [https://travis-ci.org/dbtedman/laravel-sso-provider](https://travis-ci.org/dbtedman/laravel-sso-provider) for CI results, run on each commit.
+See [https://travis-ci.com/michaelspeirs/laravel-sso-provider](https://travis-ci.com/michaelspeirs/laravel-sso-provider) for CI results, run on each commit.
 
 ### Unit Testing
 
@@ -56,10 +56,5 @@ composer run test
 
 ## Releasing
 
-Releases are automatically deployed to [Packagist](https://packagist.org/packages/dbtedman/laravel-sso-provider) from [Github](https://github.com/dbtedman/laravel-sso-provider).
+Releases are automatically deployed to [Packagist](https://packagist.org/packages/michaelspeirs/laravel-sso-provider) from [Github](https://github.com/michaelspeirs/laravel-sso-provider).
 
----
-
-Created [Down Under](https://en.wikipedia.org/wiki/Australia) by [Daniel Tedman](https://danieltedman.com).
-
-[![Australia](https://danieltedman.com/images/Australia.png)](https://en.wikipedia.org/wiki/Australia)
