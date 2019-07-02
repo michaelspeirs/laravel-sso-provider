@@ -1,6 +1,6 @@
 <?php
 
-namespace DBTedman\SSOProvider\Helpers;
+namespace LearningFutures\SSOProvider\Helpers;
 
 /**
  * This file is available on all app server environments.
